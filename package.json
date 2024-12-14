@@ -1,0 +1,70 @@
+{
+  "name": "wahlottowebapp",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/wahlotto/webapp.git"
+  },
+  "author": "WahLotto Admin",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.0",
+    "@mui/material": "^5.2.2",
+    "@mui/styles": "^5.2.2",
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "fbjs": "^0.8.18",
+    "file-saver": "^2.0.5",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-sass": "^9.0.0",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-helmet-async": "^1.2.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "^5.0.1",
+    "redux": "^4.1.2",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "web-vitals": "^1.1.2",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
